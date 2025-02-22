@@ -1,0 +1,86 @@
+.navbar {
+    padding: 10px 20px;
+    background-color: #343a40;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .nav-item {
+    padding: 10px 15px;
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+
+  .navbar .nav-link:hover {
+    color: #ff6600; 
+    text-decoration: none;
+    background-color: rgba(255, 102, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  .navbar .nav-item.active .nav-link {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar .navbar-toggler {
+        border: none;
+        background-color: #ff6600; 
+    }
+  
+    .navbar .navbar-toggler-icon {
+        background-color: white;
+    }
+  
+    .navbar-nav {
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+  
+    .navbar-nav .nav-item {
+        text-align: center;
+        width: 100%;
+    }
+  }
+ 
+  .logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+    text-align: center; 
+  }
+  
+  
+  .modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    background-color: #ff6600;
+    color: white;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #f1f1f1;
+  }
+  
+  .zalo_style {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+      
